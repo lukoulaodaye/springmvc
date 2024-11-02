@@ -1,0 +1,15 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null # 序列化时忽略空属性值
+
+
+logging:
+  level:
+    root: warn
+    org:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'
+
+my:
+  secretkey: SFRsFesjkjn90
