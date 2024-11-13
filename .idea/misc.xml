@@ -7,7 +7,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jdbc-example/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/bankend-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-examples/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/bankend-examples/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">

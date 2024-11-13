@@ -17,7 +17,15 @@ public class UserService {
                 .role(User.ADMIN)
                 .password("$2a$10$XPz7Kp1kF8NU3vewqqPGn.feT7UPvhoZolvJ1JRi57s16XKMWz9OW")
                 .build();
-        return List.of(u);
+
+        User u2 = User.builder()
+                .id("22")
+                .name("Loong2")
+                .account("8008")
+                .role(User.USER)
+                .password("$2a$10$XPz7Kp1kF8NU3vewqqPGn.feT7UPvhoZolvJ1JRi57s16XKMWz9OW")
+                .build();
+        return List.of(u, u2);
     }
 
     public List<User> listUsers() {

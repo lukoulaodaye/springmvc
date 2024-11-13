@@ -1,0 +1,8 @@
+GET http://localhost:8080/api/admin/users
+
+###
+GET localhost:8080/api/admin/users/100
+
+###
+GET http://localhost:8080/api/admin/users
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWtsd24iLCJ1aWQiOiIxIiwiaWF0IjoxNzMxNDk0NjM2LCJleHAiOjE3MzE1ODA5NDF9.3DGgL4AhljFZXWcE-NT0GtLwFNcORT5dG1V4vjuNNbI
